@@ -41,7 +41,7 @@ export default function AdminReports() {
                <LucideDownload size={18} className="mr-2" /> Export Performance PDF
             </Button>
             <Button variant="outline" size="lg" className="h-14 w-14 p-0 rounded-2xl border-2 hover:bg-primary/5 transition-all">
-               <LucideCalendarActive size={20} />
+               <LucideCalendar size={20} />
             </Button>
          </div>
       </div>

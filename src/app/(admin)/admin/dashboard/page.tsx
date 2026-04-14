@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { 
   LucideUsers, LucideBed, LucideCreditCard, LucideMessageCircle, 
-  LucideCalendarActive, LucideTrendingUp, LucideArrowUpRight, 
+  LucideCalendar, LucideTrendingUp, LucideArrowUpRight, 
   LucidePlus, LucideBell, LucideFileText
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -163,7 +163,7 @@ export default function AdminDashboard() {
             </div>
             <div className="space-y-4">
                {[
-                  { title: "New Leave Request Submitted", student: "Rahul Verma", time: "2 mins ago", icon: LucideCalendarActive, color: "text-blue-500 bg-blue-500/10" },
+                  { title: "New Leave Request Submitted", student: "Rahul Verma", time: "2 mins ago", icon: LucideCalendar, color: "text-blue-500 bg-blue-500/10" },
                   { title: "Internet Complaint Resolved", student: "A-201 Maintenance", time: "1 hour ago", icon: LucideMessageCircle, color: "text-emerald-500 bg-emerald-500/10" },
                   { title: "Fee Payment Received ($1,200)", student: "Priya Das", time: "3 hours ago", icon: LucideCreditCard, color: "text-purple-500 bg-purple-500/10" },
                   { title: "New Student Added to Wing B", student: "Amit Singh", time: "5 hours ago", icon: LucideUsers, color: "text-cyan-500 bg-cyan-500/10" },
